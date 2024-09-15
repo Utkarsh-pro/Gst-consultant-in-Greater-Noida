@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+.nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 1px;
+}
+.nav-bar nav li
+{
+    padding: 0 10px;
+}
+.nav-bar nav li a
+{
+    font-weight: 600;
+    color: #000000;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+@media only screen and (max-width: 768px) {
+    .navbar-toggler {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+}
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-size: 35px;
+    text-align: left;
+}
+
+.footer-left p {
+    margin-left: 80px;
+    text-align: left;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-content {
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.left-content h2{
+    font-size: 40px;
+}
+
+.left-content p{
+    font-size: 15px;
+}
+
+.right-content {
+    float: right;
+    width: 40%; /* Adjust width as needed */
+    margin-top: 30px; /* Align with text */
+    margin-right: -70px;
+  }
+  
+.right-content img {
+    width: 70%; /* Fit image to container */
+    height: 60%; /* Maintain aspect ratio */
+}  
+
+.invisible-line {
+    width: 1px;
+    height: 100%;
+    background-color: transparent;
+    border-left: 1px solid transparent;
+    margin: 0 30px;
+}
